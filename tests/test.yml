@@ -42,5 +42,5 @@
       when: php_ondrej_debian_repo.changed and (ansible_distribution == "Debian")
 
   roles:
-    - geerlingguy.php
+    - buluma.php
     - role_under_test
