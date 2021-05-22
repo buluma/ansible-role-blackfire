@@ -6,11 +6,11 @@ name: CI
     branches:
       - master
   schedule:
-    - cron: "0 2 * * 0"
+    - cron: "30 0 * *"
 
 defaults:
   run:
-    working-directory: 'geerlingguy.blackfire'
+    working-directory: 'buluma.blackfire'
 
 jobs:
 
@@ -21,7 +21,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'geerlingguy.blackfire'
+          path: 'buluma.blackfire'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
@@ -49,7 +49,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'geerlingguy.blackfire'
+          path: 'buluma.blackfire'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
