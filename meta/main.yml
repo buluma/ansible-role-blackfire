@@ -1,6 +1,6 @@
 ---
 dependencies:
-  - geerlingguy.php
+  - buluma.php
 
 galaxy_info:
   role_name: blackfire
