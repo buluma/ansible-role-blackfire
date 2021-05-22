@@ -1,6 +1,6 @@
 # Ansible Role: Blackfire
 
-[![CI](https://github.com/geerlingguy/ansible-role-blackfire/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-blackfire/actions?query=workflow%3ACI)
+[![CI](https://github.com/geerlingguy/ansible-role-blackfire/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-blackfire/actions?query=workflow%3ACI) ![Ansible Role](https://img.shields.io/ansible/role/d/24160?color=blue)
 
 Installs [Blackfire](https://blackfire.io/) on RHEL/CentOS or Debian/Ubuntu.
 
