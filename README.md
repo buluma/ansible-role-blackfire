@@ -1,6 +1,6 @@
 # Ansible Role: Blackfire
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-blackfire.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-blackfire) ![Ansible Role](https://img.shields.io/ansible/role/d/24160?color=blue)
+[![CI](https://github.com/geerlingguy/ansible-role-blackfire/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-blackfire/actions?query=workflow%3ACI)
 
 Installs [Blackfire](https://blackfire.io/) on RHEL/CentOS or Debian/Ubuntu.
 
@@ -20,6 +20,11 @@ Available variables are listed below, along with default values (see `defaults/m
       - blackfire-php
 
 The Blackfire packages this role will install on the server. Note that `blackfire-php` may not work well with XHProf and/or XDebug.
+
+    blackfire_gpg_key_url: https://packages.blackfire.io/gpg.key
+    blackfire_repo_url: http://packages.blackfire.io/fedora/blackfire.repo
+
+Variables used for Blackfire package setup and installation.
 
 ## Dependencies
 
